@@ -1,0 +1,59 @@
+//
+// 自定义reset
+// 消除常用标签各浏览器下的差异，非常用标签使用时自行处理
+// -----------------------------------------------------------------
+
+
+/* reset
+ ------------------------- */
+body,
+div, span,
+object, iframe,
+h1, h2, h3, h4, h5, h6,
+p, a, em, img,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label,
+table, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+} 
+
+ol, ul { list-style: none; }
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th, td {
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+b {
+	font-weight:normal;
+}
+i, em {
+	font-style:normal;
+}
+img {
+	font-size:0;
+	border: 0;
+}
+pre {
+    white-space: pre-wrap;
+}
+
+// Font size in all browsers, margin changes, misc consistency
+input,
+select,
+textarea {
+	margin: 0;
+	font-family: inherit;
+	font-size: 100%;
+}

@@ -1,0 +1,24 @@
+{
+	"test": {
+		"path_remote_js": "",
+		"path_remote_css": ""
+	},
+	"pro": {
+		"path_remote_js": "http://img3.cache.netease.com/apps/galaxy/js",
+		"path_remote_css": "http://img5.cache.netease.com/apps/galaxy/css"
+	},
+	"files_js": {
+		"general": {
+			"<%= path.release.js %>/mock.min.js": ["<%= path.dev.js %>/module/mock.js"]
+		},
+		"external": {
+			"<%= path.release.js %>/plugin/mock.min.js": [
+				"<%= path.dev.js %>/widget/mock1.min.js",
+				"<%= path.dev.js %>/widget/mock2.min.js"
+			]
+		},
+		"unchanged": {
+			"<%= path.release.js %>/lib/mock.min.js": ["<%= path.dev.js %>/mock.min.js"]
+		}
+	}
+}

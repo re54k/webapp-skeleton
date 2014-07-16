@@ -1,0 +1,44 @@
+// 通用颜色
+$c-blue-light: #6eb5e5;
+$c-blue: #5faee3;
+$c-blue-dark: #3b91cb;
+$c-orange: #f6854e;
+$c-grey: #8c8f93;
+
+// 框架背景色
+$bgc-page: #f2f3f4;
+$bgc-header: #042b4f;
+$bgc-footer: #ecedee;
+$bgc-section: #fff;
+
+// 表格配色
+$c-th: #82868a;
+$c-td: #292929;
+$c-border: #eaeef2;
+$c-odd: #fff;
+$c-even: #f8f9fa;
+
+// 文本
+$f-simsun: '\5B8B\4F53';
+$f-simhei: '\9ED1\4F53';
+$f-yahei: '\5FAE\8F6F\96C5\9ED1';
+$f-heiti: '\9ED1\4F53';
+$f-hiragino: 'hiragino sans gb';
+$c-text: $c-grey;
+$c-title: #91999b;
+$fs-text: 14px;
+$lh-text: 1.6;
+
+// 布局宽度
+$h-header: 125px;
+$h-footer: 60px;
+$w-sidebar: 218px;
+
+// 表单配色
+$bgc-input: #fff;
+$c-input: #1c1c1c;
+$fs-input: $fs-text;
+
+// 过渡
+$duration-cmn: .5s;
+$easing-cmn: ease-out;

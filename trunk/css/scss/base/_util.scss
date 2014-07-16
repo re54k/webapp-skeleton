@@ -1,0 +1,66 @@
+.l { float:left;}
+.r { float:right;}
+.clear { @include pie-clearfix;}
+
+.hide {
+	display:none;
+}
+.v-hidden {
+	visibility:hidden;
+}
+.v-visible {
+	visibility:visible;
+}
+
+.t-l { text-align:left; }
+.t-c { text-align:center; }
+.t-r { text-align:right; }
+.t-overflow {
+	width: 100%;
+	@include ellipsis;
+	word-wrap:normal; // IE8 9 截断问题
+}
+.t-wrap { @include force-wrap;}
+.t-nowrap { @include nowrap;}
+.f-h3 {
+	font-weight:bold;
+	font-size:20px;
+}
+.f-b {font-weight:bold;}
+
+
+.a-blue {
+	color:$c-blue;
+	&:hover {
+		color:$c-blue-dark;
+	}
+}
+.a-back {
+	position:relative;
+	left:0;
+	font-size:16px;
+	@include transition(all .2s ease-out);
+	&:hover {
+		left:-5px;
+		border:none;
+	}
+	&:before {
+		content:inline-image('base64/arrow-left.png');
+		margin-right:8px;
+	}
+}
+
+.a-back-blue {
+	@extend .a-blue;
+	@extend .a-back;
+}
+
+.pos-r {position:relative;}
+
+.m-r10 { margin-right:10px;}
+.m-r17 { margin-right:17px;}
+.m-r38 { margin-right:38px;}
+
+.m-b17 { margin-bottom:17px;}
+
+.p-b15 { padding-bottom:15px;}
